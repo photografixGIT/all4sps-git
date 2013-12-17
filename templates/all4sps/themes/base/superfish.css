@@ -1,0 +1,201 @@
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sf-menu li {
+	position: relative;
+}
+.sf-menu ul {
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 0;
+	z-index: 99;
+}
+
+/* Oscar, 04/10/2013: superfish own */
+
+.sf-menu > li {
+	float: left;
+}
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+	display: block;
+}
+
+.sf-menu a {
+	display: block;
+	position: relative;
+}
+.sf-menu ul ul {
+	top: 0;
+	left: 100%;
+}
+
+
+/*** OUR ALL4SPS SKIN ***/
+.sf-menu {
+	float: left;
+	margin-bottom: 1em;
+	text-align:left;
+}
+.sf-menu ul {
+	box-shadow: 2px 2px 6px rgba(0,0,0,.2);
+	min-width: 12em; /* allow long menu items to determine submenu width */
+	*width: 12em; /* no auto sub width for IE7, see white-space comment below */
+}
+.sf-menu a {
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff; /* fallback colour must use full shorthand */
+	border-top: 1px solid rgba(255,255,255,.5);
+	paddinga: .75em 1em;
+	text-decoration: none;
+	zoom: 1; /* IE7 */
+}
+.sf-menu a {
+	color: #fff;
+	padding-top: 13px;
+	padding-left:7px;
+	padding-right:7px;
+	padding-bottom:6px;
+	line-height:17px;
+}
+
+.sf-menu > li:first-child {
+	background:none;
+	backgrounda-color: #F0EDE8;
+	padding-left: 0px;
+	border:0px;
+	margin-top:1px;
+	margin-bottom:2px;
+	height:36px;
+	
+}
+
+.sf-menu > li > a:first-child {
+    background:white;
+	padding-left: 14px;
+	border:0px;
+	color:#000;
+	backgrounda-color: #F0EDE8;
+	margin-bottom:2px;
+}
+
+
+.sf-menu > li:first-child > a:hover {
+    background:white;
+	padding-left: 4px;
+	border:0px;
+	color:#000;
+	background-color: #fff;
+	margin-bottom:2px;
+}
+
+.sf-menu > li:first-child > li:hover {
+	
+	background-color: #fff;
+}
+
+
+.sf-menu li {
+	background: #202020;
+	white-space: nowrap; /* no need for Supersubs plugin */
+	*white-space: normal; /* ...unless you support IE7 (let it wrap) */
+	-webkit-transition: background .2s;
+	transition: background .2s;
+}
+.sf-menu ul li {
+	background: #202020;
+}
+
+.sf-menu a:hover {
+color:#fff;
+}
+
+.sf-menu > li > a:hover {
+
+}
+
+.sf-menu ul  ul li > a:hover {
+color:#ccc;
+}
+
+#topnaviulsuperfish ul li > a:visited a:hover {
+color: #fff;
+text-decoration: none;
+
+}
+
+.sf-menu ul ul li {
+	background: #202020;
+}
+.sf-menu li:hover,
+.sf-menu li.sfHover {
+	backgrounda: #b90100;
+	/* only transition out, not in */
+	-webkit-transition: none;
+	transition: none;
+	
+}
+
+/*** arrows (for all except IE7) **/
+.sf-arrows .sf-with-ul {
+	padding-right: 2.5em;
+	*padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
+}
+/* styling for both css and generated arrows */
+.sf-arrows .sf-with-ul:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: 1em;
+	margin-top: -3px;
+	height: 0;
+	width: 0;
+	/* order of following 3 rules important for fallbacks to work */
+	border: 5px solid transparent;
+	border-top-color: #fff; /* edit this to suit design (no rgba in IE8) */
+	border-top-color: rgba(255,255,255,.5);
+}
+.sf-arrows > li > .sf-with-ul:focus:after,
+.sf-arrows > li:hover > .sf-with-ul:after,
+.sf-arrows > .sfHover > .sf-with-ul:after {
+	border-top-color: white; /* IE8 fallback colour */
+}
+/* styling for right-facing arrows */
+.sf-arrows ul .sf-with-ul:after {
+	margin-top: -5px;
+	margin-right: -3px;
+	border-color: transparent;
+	border-left-color: #fff; /* edit this to suit design (no rgba in IE8) */
+	border-left-color: rgba(255,255,255,.5);
+}
+.sf-arrows ul li > .sf-with-ul:focus:after,
+.sf-arrows ul li:hover > .sf-with-ul:after,
+.sf-arrows ul .sfHover > .sf-with-ul:after {
+	border-left-color: white;
+}
+
+
+.sf-menu li li a:link {
+font-family: Arial, Helvetica, sans-serif;
+color: #efefef;
+font-size: 12px;
+line-height: 18px;
+text-decoration: none;
+padding: 7px 10px;
+background: #202020;
+}
+
+.sf-menu li li a:hover {
+font-family: Arial, Helvetica, sans-serif;
+color: #fff;
+font-size: 12px;
+line-height: 18px;
+text-decoration: none;
+padding: 7px 10px;
+background: #262626;
+}
+

@@ -1,0 +1,22 @@
+/*********************************************************
+ * JTL-Shop3 Tiny stylesheet
+ *
+ * $Id$
+ *
+ *********************************************************/
+ 
+#styled_view li.gallery, 
+#styled_view li.mosaic { display: inline; position: relative; }
+
+#styled_view li .article_wrapper { border-color: #fff; }
+
+#styled_view li.list, 
+#styled_view { width: auto; }
+
+#styled_view li.list .article_image { position: relative; }
+
+#styled_view li.list ul.article_info { width: 30%; }
+
+.article_buy fieldset * { vertical-align: middle; }
+
+ul.topmenu ul li { display: inline; width: 100%; }

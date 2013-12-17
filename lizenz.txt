@@ -1,0 +1,50 @@
+JTL-Shop3 Lizenz
+
+Bitte lesen Sie vor der Installation und der Verwendung von JTL-Shop3 die hier aufgeführten Nutzungsbedingungen aufmerksam durch.
+Mit Installation der Software JTL-Shop3 wird zwischen der Firma JTL-Software-GmbH (nachfolgend als »JTL-Software« bezeichnet) und dem Endbenutzer (nachfolgend als »Lizenznehmer« bezeichnet) der folgende rechtsgültige Vertrag über die Nutzung der Software JTL-Shop3 getroffen. Diese Lizenzbedingungen schließen sämtliche Dateien des Installationspakets von JTL-Shop3 und ggf. von JTL-Software zur Verfügung gestellte Updates mit ein, sofern letzteren keine gesonderten Lizenzbedingungen beiliegen. Bis auf die unten näher bezeichneten Komponenten von Drittherstellern, für die andere Lizenzbedingungen gelten, ist JTL-Software Eigentümer und Urheber der Software JTL-Shop3.
+Der Funktionsumfang von JTL-Shop3 sowie Hinweise zur Benutzung werden ausführlich auf den Internetseiten von JTL-Software dargestellt. Die Dokumentation kann unabhängig von Installation, Ingebrauchnahme oder Erwerb von JTL-Shop3 auf den Internetseitenvon JTL-Software eingesehen werden.
+Der Lizenznehmer erhält von JTL-Software das einfache, nicht ausschließliche und zeitlich unbeschränkt gültige Recht zur Nutzung der Software, außer es ist ausdrücklich schriftlich für den Einzelfall etwas anderes vereinbart. Eine Lizenz gestattet dem Lizenznehmer, JTL-Shop3 für eine einzelne, Internetdomain zu verwenden. Der Name, der mit JTL-Shop3 zu verwendenden Internetdomain ist bei Erwerb der Lizenz dem Lizenzgeber mitzuteilen. Diese Internetdomain ist verknüpft mit einem Lizenzschlüssel, der bei der Auslieferung von JTL-Shop3 ausgehändigt wird.
+Für die Nutzung von JTL-Shop3 ist die sichtbare Namensnennung "JTL-Shop3" mit optionaler Rückverlinkung auf http://www.jtl-software.de in der Fußzeile bzw. im Impressum des Shops vorgeschrieben. Alternativ kann eine Brand-Free Lizenz von JTL-Shop3 erworben werden, in der die Namensnennung entfällt.
+Der Lizenznehmer verpflichtet sich, dafür zu sorgen, dass JTL-Shop3 nur im Rahmen dieser Lizenzbedingungen eingesetzt wird.
+Der unbefugte Gebrauch in anderem Zusammenhang als mit der Software JTL-Wawi und als Verwendung als Webshop dieses Programms oder eines Teils davon darf ohne ausdrückliche, schriftliche Zustimmung von JTL-Software nicht erfolgen.
+Eine Wiederveröffentlichung, Vermietung und Vertrieb der Software oder Teile davon ist ohne ausdrückliche, schriftliche Genehmigung von JTL-Software weder in modifizierter noch unmodifizierter Form gestattet.
+
+Dieses Softwarepaket nutzt folgende Drittsoftware, deren Rechte nicht JTL-Software gehören:
+- Smarty 2.6.18 (http://smarty.php.net), LGPL
+- PclZip 2.6 (http://www.phpconcept.net), LGPL
+- PHPMailer v5.2.0 (http://phpmailer.codeworxtech.com), LGPL
+- XTEA was designed in 1997 by David Wheeler and Roger Needham of the Cambridge Computer Laboratory. It is not subject to any patents.
+- XML Library, by Keith Devens, version 1.2b (Artistic License) http://keithdevens.com/software/phpxml
+- X Library / Ylib,  http://cross-browser.com, LGPL
+- Graph Class 1.6.4 by Herman Veluwenkamp (hermanV@subdimension.com), LGPL
+- CKEditor 3.3.1 - Frederico Knabben, http://ckeditor.com, LGPL
+- FLV Player - http://flv-player.net, Creative Commons
+- OpenFlashChart - http://teethgrinder.co.uk/open-flash-chart-2 - LGPL
+- Xajax 0.5 - http://www.xajaxproject.org - BSD
+- minify, http://code.google.com/p/minify, BSD License
+- phpquery, http://code.google.com/p/phpquery, MIT
+- Highcharts JS v2.2.0 (2012-02-16), http://www.highcharts.com/license
+- URLNormalizer (Glen Scott <glen_scott@yahoo.co.uk>)
+
+Das Template "JTL-Shop3-Tiny" nutzt zusätzlich folgende Drittsoftware:
+- jQuery, http://jquery.com, MIT-Lizenz
+- cloudZoom, http://www.professorcloud.com/mainsite/cloud-zoom.htm, MIT
+- autocomplete, http://plugins.jquery.com/project/autocompletex, MIT
+- cookie, http://stilbuero.de, MIT
+- jCarousel, http://sorgalla.com/jcarousel, MIT
+- semantictabs, http://www.ndoherty.com/coda-slider, MIT
+- SimpleModal, http://www.ericmmartin.com/projects/simplemodal, MIT
+- Fancybox, http://fancybox.net, MIT
+
+Weitere Informationen erhalten Sie unter http://www.jtl-software.de
+
+Kontakt:
+JTL-Software-GmbH
+Rheinstr. 7
+41836 Hückelhoven
+
+Telefon: 04331 448895
+Telefax: 02433 970433
+eMail:   info@jtl-software.de
+
+Oktober 2010

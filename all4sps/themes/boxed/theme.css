@@ -1,0 +1,101 @@
+
+a:hover,
+a:active,
+a:focus,
+select:focus,
+#headlinks ul li > a:hover,
+#footer ul.lnkgroup li.active > a,
+#footer ul.lnkgroup li a:hover {
+   color:#3399CC;
+   transition: color 0.2s ease 0s, background-color 0.2s linear 0s;
+   
+}
+#settings ul li > a:hover,
+#settings ul li a.active,
+#headlinks li:last-child a,
+#topnavi > ul.subcat-0 > li.node > a:hover,
+#topnavi ul.subcat-1 li.active a,
+#topnavi ul.subcat-0 li.node h4 a,
+#topnavi > ul > li.active > a,
+#topnavi ul li a:hover,
+#footer ul.lnkgroup li a:hover,
+ul.categories li.current > a,
+ul.categories li.active > a,
+.news p a,
+span.price {
+   color:#F36C5A;
+   transition: color 0.2s ease 0s, background-color 0.2s linear 0s;
+}
+
+#topnavi > ul > li:hover > a > span {
+   border-bottom:4px solid #F36C5A;
+}
+
+#topnavi > ul > li#search:hover {
+   border-color:#333;
+}
+
+.scrollTo_top,
+ul.semtabs li.active a,
+ul.semtabs li a:hover,
+a.submit,
+a.submit:visited,
+a.submit:hover,
+#headlinks li.last a span,
+input[type="submit"],
+button[type="submit"],
+button[type="button"],
+input[type="submit"]:hover,
+span.page.selected,
+.jcarousel-skin-flat .jcarousel-prev-horizontal:hover,
+.jcarousel-skin-flat .jcarousel-next-horizontal:hover,
+ul.pagenavi li.page.selected a,
+.preisslider .ui-state-default, .preisslider .ui-widget-content .ui-state-default, .preisslider .ui-widget-header .ui-state-default,
+#services li#search input[type="submit"] {
+   background-color:#F36C5A;
+   transition: color 0.2s ease 0s, background-color 0.2s linear 0s;
+}
+
+/* boxed */
+
+body, html {
+    background-color: #F2F2F2;
+}
+#header_wrapper, #bodyWrapper, #footer_wrapper {
+   box-shadow: 0 2px 2px 0 #CCCCCC;
+}
+#header_wrapper {
+    background-color: #FFFFFF;
+    border-bottom: 0;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 1070px;
+}
+#settings {
+    margin: 0 -15px;
+}
+#header, #header.header_standard {
+    height: 70px;
+}
+#bodyWrapper {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-top: 0;
+    margin: -1px auto 0;
+    padding: 15px;
+    width: 1070px;
+}
+#footer_wrapper {
+    margin: 0 auto;
+    padding: 1px 15px 0;
+    width: 1070px;
+}
+.newsletterbox {
+    background-color: #FFFFFF;
+    margin: 0 -15px 25px;
+    padding: 15px;
+}
+#footer {
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+}

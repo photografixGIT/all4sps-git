@@ -1,0 +1,394 @@
+/*********************************************************
+ * JTL-Shop3 Tiny stylesheet
+ *
+ * $Id: base.css 986 2010-08-04 10:39:31Z andy $
+ *
+ *********************************************************/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'),
+      url('fonts/opensans-light.eot') format('embedded-opentype'),
+      url('fonts/opensans-light.woff') format('woff'),
+      url('fonts/opensans-light.ttf') format('truetype'),
+      url('fonts/opensans-light.svg#OpenSansLight') format('svg');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'),
+      url('fonts/opensans-regular.eot') format('embedded-opentype'),
+      url('fonts/opensans-regular.woff') format('woff'), 
+      url('fonts/opensans-regular.ttf') format('truetype'),
+      url('fonts/opensans-regular.svg#OpenSansRegular') format('svg');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'),
+      url('fonts/opensans-semibold.eot') format('embedded-opentype'),
+      url('fonts/opensans-semibold.woff') format('woff'), 
+      url('fonts/opensans-semibold.ttf') format('truetype'),
+      url('fonts/opensans-semibold.svg#OpenSansSemibold') format('svg');
+}
+
+html {
+   /*ODM all4sps red yummy: 27.08.2013: genuine value was of normal 0.75em/1.5 'Open Sans', Helvetica, Verdana, sans-serif;*/
+   /*font: normal 0.75em/1.5 'Open Sans', Helvetica, Verdana, sans-serif;*/
+   font: normal 12px/18px Arial,Helvetica,sans-serif;
+   color: #333;
+}
+
+bodya, htmla{
+    background-color:#fff;
+    height: 100%;
+}
+
+body{
+	background: url(images/body-bg.gif) 50% 0;
+	color: #8c8c8c;
+	font: 12px/18px Arial, Helvetica, sans-serif;
+	position:relative;
+}
+
+.main-bg {
+	
+	width: 80%;
+	positiona:absolute;
+	top:45px;
+	bottom:45px;
+	lefta:50%;
+	margin-lefta:-500px;
+	margin: 0 auto;
+	margin-top:45px;
+	margin-bottom:45px;
+	background:#fff;
+}
+
+legend {
+    color: #333;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, label, input, button, textarea, select, p, blockquote, th, td {
+   margin: 0;
+   padding: 0;
+}
+
+h1, h2, h3 {
+   padding: 0;
+   margin: 0 0 20px;
+   font-weight:normal;
+}
+
+h1 {
+   margin : 0 0 0.5em 0;
+   text-align: left;
+}
+
+h2 {
+
+}
+
+h3 {
+   margin-top: 1.5em;
+   font-size : 1.3em;
+}
+
+strong, b {
+   font-weight : bold;
+}
+
+ul, ol {
+   list-style-type: none;
+}
+
+fieldset {
+   border: 0;
+}
+
+fieldset legend {
+  
+}
+
+label:hover {
+   cursor: pointer;
+}
+
+img {
+   border: 0;
+}
+
+/*
+ *  google chrome input border glow
+ */
+*:focus, a, textarea, input, select {
+   outline: none;
+}
+
+/*
+ *  firefox dotted links
+ */
+* {
+  -moz-outline-style: none;
+}
+
+*::-moz-focus-inner {
+   border: none;
+}
+
+/*
+ *  format
+ */
+.hide_overflow {
+   overflow: hidden !important;
+}
+
+.left {
+   float :left !important;
+}
+
+.right {
+   float: right !important;
+}
+
+.clear {
+   clear: both;
+   width: 100%;
+   display: block;
+}
+
+.tcenter {
+   text-align: center;
+}
+
+.tleft {
+   text-align: left;
+}
+
+.tright {
+   text-align: right;
+}
+
+.nospacing {
+   margin: 0 !important;
+   padding: 0 !important;
+}
+
+.nomargin {
+   margin: 0 !important;
+}
+
+.vmiddle {
+   vertical-align: middle;
+}
+
+.vtop {
+   vertical-align: top;
+}
+
+.noborder {
+   border: 0 !important;
+}
+
+.hidden {
+   display: none;
+}
+
+.hidden_force {
+   display: none !important;
+}
+
+.invisible {
+   visibility: hidden;
+}
+
+.visible {
+   visibility: visible;
+}
+
+.nowrap {
+   white-space: nowrap;
+}
+
+.infocur {
+   cursor: help !important;
+}
+
+.zoomcur {
+   cursor: url('./images/zoom.cur'), pointer;
+   cursor: -webkit-zoom-in;
+   cursor: -moz-zoom-in;
+}
+
+/*
+ *  horizontal list
+ */
+ul.hlist {
+   width: 100%;
+   overflow: hidden;
+}
+
+ul.hlist li {
+   float: left;
+   display: block;
+}
+
+ul.thead {
+   border-bottom: 1px solid #ccc;
+}
+
+/*
+ *  vertical list
+ */
+ul.vlist {
+   width: 100%;
+   overflow: hidden;
+}
+
+ul.vlist li {
+   float: none;
+   display: block;
+}
+
+/*
+ *  percent widths
+ */
+.p10 {
+   width: 10%;
+}
+
+.p15 {
+   width: 15%;
+}
+
+.p20 {
+   width: 20%;
+}
+.p23 {
+   width: 23%;
+}
+.p25 {
+   width: 25%;
+}
+
+.p30{
+   width: 30%;
+}
+
+.p309{
+   width: 30.999%;
+}
+
+.p33 {
+   width: 32.11111%;
+   w\idth: 32.11111%;
+}
+
+.p35{
+   width: 35%;
+}
+
+.p40 {
+   width: 40%;
+}
+
+.p50 {
+   width: 49.99%;
+}
+.p60 {
+   width: 59.99%;
+}
+.p66 {
+   width: 66%;
+}
+
+.p75 {
+   width: 75%;
+}
+
+.p80 {
+   width: 80%;
+}
+
+.p98 {
+   width: 98%;
+}
+
+.p100 {
+   width: 100%;
+}
+
+.cl {
+   margin: 0 5px 0 0;
+}
+
+.cc {
+   margin: 0 5px;
+}
+
+.cr {
+   margin: 0 0 0 5px;
+}
+
+.vmiddle {
+   vertical-align: middle;
+}
+
+.clearall:after {
+   content: ".";
+   display: block;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+}
+
+.clearall {
+   display: inline-block;
+}
+
+html .clearall {
+   height: 1%;
+}
+
+.clearall {
+   display:block;
+}
+
+/*
+ *  table
+ */
+table{
+   width: 100%;
+   border-collapse: separate;
+   border-spacing: 0;
+}
+
+table th,
+table td {
+   padding: 2px;
+   border: 0;
+   /* vertical-align: middle; */
+}
+
+table tfoot th {
+   border: 0;
+}
+
+.p50 .first {
+   margin: 0 5px 0 0;
+}
+
+.p50 .last {
+   margin: 0 0 0 5px;
+}
+
+.p33 .middle {
+   margin: 0 10px 0 10px;
+}
+

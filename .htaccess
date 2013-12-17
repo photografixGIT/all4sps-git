@@ -1,0 +1,74 @@
+
+ErrorDocument 403 'http://www.all4sps.eu'
+
+# IP Blockierung von uns
+Order deny,allow
+Allow From 178.195.21.62
+Allow From 212.4.95.213
+Allow From 217.26.55.181
+Allow From 82.136.91.128
+Allow From 80.218.134.31
+Allow From 188.60.102.167
+Allow From 92.106.208.55
+Allow From 80.218.139.61
+Allow From 84.74.166.7
+Allow From 188.61.226.72
+Deny from all
+
+# IP Blockierung von Kunde
+Allow From 46.14.215.61
+Allow From 89.186.215.54
+Allow From 92.106.58.107
+Deny from all
+
+# IP Blockierung von Kundengrafiker
+Allow From 92.104.117.3
+Deny from all
+
+<ifModule mod_deflate.c>
+   <FilesMatch "\\.(js|css|html|htm|php|xml)$">
+      SetOutputFilter DEFLATE
+   </FilesMatch>
+</ifModule>
+
+<ifModule mod_headers.c>
+   Header unset ETag
+   FileETag None
+
+   <filesMatch "\\.(ico|pdf|flv|jpg|jpeg|png|gif|swf|jpe)$">
+      Header set Cache-Control "max-age=2592000, public"
+   </filesMatch>
+   <filesMatch "\\.(css)$">
+      Header set Cache-Control "max-age=604800, public"
+   </filesMatch>
+   <filesMatch "\\.(js)$">
+      Header set Cache-Control "max-age=216000, private"
+   </filesMatch>
+   <filesMatch "\\.(xml|txt)$">
+      Header set Cache-Control "max-age=216000, public, must-revalidate"
+   </filesMatch>
+   <filesMatch "\\.(html|htm|php)$">
+      Header set Cache-Control "max-age=1, private, must-revalidate"
+   </filesMatch>
+</ifModule>
+
+<IfModule mod_rewrite.c>
+   RewriteEngine on
+
+   #REWRITE ANPASSUNG 1 (REWRITEBASE)
+   #Wenn Ihr Shop in einem Unterverzeichnis (also z.B. meinedomain.de/meinverzeichnis) installiert ist, so kommentieren Sie die kommende Zeile aus und passen Sie den Verzeichnisnamen an
+   #RewriteBase /meinverzeichnis
+
+   #REWRITE ANPASSUNG 2 (auf www.meinedomain.de umleiten)
+   #Ihr Shop sollte nicht unter www.meinedomain.de und nur meinedomain.de erreichbar sein, siehe: http://wiki.jtl-software.de/index.php?title=JTL-Shop3-Neuinstallation#4._Einrichtung_einer_Domainweiterleitung
+   #RewriteCond %{HTTP_HOST} ^meinedomain.de
+   #RewriteRule ^(.*)$ http://www.meinedomain.de/$1 [r=301,L]
+
+   #Regeln für das Rewrite der URLs von JTL-Shop3
+   #Ändern Sie an diesen Zeilen nichts!
+   RewriteRule ^((urllist|sitemap_).*\.(xml|txt)(\.gz)?)$ includes/sitemap.php?datei=$1 [L]
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule !\. index.php [L]
+</IfModule>
+
+#@__HCP_END__@#

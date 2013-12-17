@@ -1,0 +1,98 @@
+
+a:hover,
+a:active,
+a:focus,
+select:focus,
+#headlinks ul li > a:hover,
+#footer ul.lnkgroup li.active > a,
+#footer ul.lnkgroup li a:hover {
+   color:#3399CC;
+   transition: color 0.2s ease 0s, background-color 0.2s linear 0s;
+   
+}
+#settings ul li > a:hover,
+#settings ul li a.active,
+#headlinks li:last-child a,
+#topnavi > ul.subcat-0 > li.node > a:hover,
+#topnavi ul.subcat-1 li.active a,
+#topnavi ul.subcat-0 li.node h4 a,
+#topnavi > ul > li.active > a,
+#topnavi ul li a:hover,
+#footer ul.lnkgroup li a:hover,
+ul.categories li.current > a,
+ul.categories li.active > a,
+.news p a,
+span.price {
+     /*ODM all4sps red yummy: 27.08.2013: genuine value was of #F36C5A;*/
+   color:#B90100;
+   transition: color 0.2s ease 0s, background-color 0.2s linear 0s;
+}
+
+#topnavi > ul > li:hover > a > span {
+   border-bottom:4px solid #B90100;
+}
+
+#topnavi > ul > li#search:hover {
+   border-color:#333;
+}
+
+.scrollTo_top,
+ul.semtabs li.active a,
+ul.semtabs li a:hover,
+a.submit,
+a.submit:visited,
+a.submit:hover,
+#headlinks li.last a span,
+input[type="submit"],
+button[type="submit"],
+button[type="button"],
+input[type="submit"]:hover,
+span.page.selected,
+.jcarousel-skin-flat .jcarousel-prev-horizontal:hover,
+.jcarousel-skin-flat .jcarousel-next-horizontal:hover,
+ul.pagenavi li.page.selected a,
+.preisslider .ui-state-default, .preisslider .ui-widget-content .ui-state-default, .preisslider .ui-widget-header .ui-state-default,
+#services li#search input[type="submit"] {
+   background-color:#B90100;
+   transition: color 0.2s ease 0s, background-color 0.2s linear 0s;
+}
+select:focus {
+   
+}
+
+input[type="submit"]:hover {
+background: #000;
+color: #fff!important;
+text-decoration: none;
+}
+
+a:hover {
+   color: #B90100;
+}
+
+div.sidebox_content > ul > li a:hover {
+   color: #B90100;
+}
+
+#breadcrumb a:hover {
+   color: #B90100;
+}
+
+#headlinks li:last-child a:hover {
+   color: #B90100;
+}
+
+#footer > ul > li  	a:active {
+color: #B90100;
+}
+
+ .map-holder {
+background: url('http://img-cdn.prestashop.com/img-map.png') repeat scroll 0 0 transparent;
+height: 350px;
+margin: -53px 0 8px;
+position: relative;
+width: 490px;
+}
+	
+
+ 

@@ -1,0 +1,67 @@
+ul.orangemenu, .orangemenu ul{
+margin:0;
+padding:0;
+list-style-type:none;
+}
+
+ul.orangemenu{
+height:32px;
+border-left:1px solid white
+}
+
+.orangemenu li{
+float:left;
+width:151px;
+position:relative;
+filter:inherit;/*required to make the fade work on IE8*/
+}
+
+.orangemenu li a{
+display:block;
+width:150px;
+line-height:30px;
+text-align:center;
+color:white;
+text-decoration:none;
+background-color:#EA9531;
+border:1px solid white;
+border-left:none;
+}
+.orangemenu li li{
+clear:left/*for IE7*/
+}
+
+.orangemenu li li a{
+border-top:none;
+}
+
+.orangemenu li a:hover{
+color:#333333
+}
+
+.orangemenu li ul{
+display:none;
+position:absolute;
+left:-1px;
+top:32px;
+border-left:1px solid white;
+
+}
+
+.orangemenu li ul ul{
+display:none;
+position:absolute;
+left:151px;
+top:-1px;
+border-top:1px solid white;
+width:151px
+
+}
+
+.orangemenu li:hover > ul{
+display:block
+}
+
+.orangemenu li ul a{
+background-color:#FFB33B
+}
