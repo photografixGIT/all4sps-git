@@ -1,1 +1,0 @@
-{eval var=$oBox->cInhalt}
